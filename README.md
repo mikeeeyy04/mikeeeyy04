@@ -1,16 +1,87 @@
-## Hi there 👋
+# Mike Lyndon Bigcas
 
-<!--
-**mikeeeyy04/mikeeeyy04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Full Stack Developer & UI/UX Designer**
 
-Here are some ideas to get you started:
+Passionate about building beautiful, functional web experiences and crafting innovative VS Code extensions. Specialized in modern web technologies and intuitive interface design.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## GitHub Statistics
+
+<div align="center">
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=mikeeeyy04&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=ffffff&include_all_commits=true&count_private=true&layout=compact&token=${{ secrets.README_STATS_TOKEN }})
+&nbsp;&nbsp;&nbsp;
+![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=mikeeeyy04&theme=tokyonight&hide_border=true&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)
+
+</div>
+
+
+## Top Languages
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mikeeeyy04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=ffffff&langs_count=8&token=${{ secrets.README_STATS_TOKEN }})
+
+---
+
+## About Me
+
+| | |
+|---|---|
+| **Currently Working On** | Full Stack Web Applications & VS Code Extensions |
+| **Learning** | Advanced React Patterns & System Design |
+| **Availability** | Full-time, Part-time, Freelance |
+| **Profile Views** | ![Profile Views](https://komarev.com/ghpvc/?username=mikeeeyy04&color=58A6FF&style=flat-square) |
+
+---
+
+## Tech Stack
+
+### Web Development
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+### Databases & Backend
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+
+### VS Code Extensions
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
+
+### Design Tools
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Adobe XD](https://img.shields.io/badge/Adobe_XD-FF61F6?style=flat-square&logo=adobe-xd&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=flat-square&logo=adobe-photoshop&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+
+---
+
+## Contribution Activity
+
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=mikeeeyy04&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&height=200)
+
+---
+
+## Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mike-lyndon-bigcas)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mikeeeyy04)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/mikeeeyy04)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@mikelyndonbigcas.dev)
+
+---
+
+<div align="center">
+
+![Snake animation](https://github.com/mikeeeyy04/mikeeeyy04/blob/output/github-contribution-grid-snake.svg)
+
+**Made with care by Mike Lyndon Bigcas**
+
+</div>
