@@ -12,7 +12,7 @@ Passionate about building beautiful, functional web experiences and crafting inn
 <div align="center">
 
 <!-- Fallback: public badge (shows immediately). When the Action runs it will replace these with generated local SVGs. -->
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=mikeeeyy04&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=ffffff&include_all_commits=true&layout=compact)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=mikeeeyy04&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=ffffff&layout=compact)
 &nbsp;&nbsp;&nbsp;
 ![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=mikeeeyy04&theme=tokyonight&hide_border=true&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)
 
