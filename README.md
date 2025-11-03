@@ -11,7 +11,8 @@ Passionate about building beautiful, functional web experiences and crafting inn
 <!-- STATS:START -->
 <div align="center">
 
-![GitHub stats](./.github/readme-stats/github-stats.svg)
+<!-- Fallback: public badge (shows immediately). When the Action runs it will replace these with generated local SVGs. -->
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=mikeeeyy04&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=ffffff&include_all_commits=true&layout=compact)
 &nbsp;&nbsp;&nbsp;
 ![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=mikeeeyy04&theme=tokyonight&hide_border=true&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)
 
@@ -22,7 +23,8 @@ Passionate about building beautiful, functional web experiences and crafting inn
 ## Top Languages
 
 <!-- LANGS:START -->
-![Top Languages](./.github/readme-stats/top-langs.svg)
+<!-- Fallback: public top-langs badge (shows immediately). Action will replace with a generated image when run. -->
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mikeeeyy04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=ffffff&langs_count=8)
 <!-- LANGS:END -->
 
 ---
