@@ -6,20 +6,6 @@ Passionate about building beautiful, functional web experiences and crafting inn
 
 ---
 
-## GitHub Statistics
-
-<!-- STATS:START -->
-<div align="center">
-
-<!-- Stats with private contributions via token -->
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=mikeeeyy04&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=ffffff&include_all_commits=true&count_private=true&layout=compact&token=)](https://github.com/anuraghazra/github-readme-stats)
-
-[![GitHub Streak](https://streak.demolab.com/?user=mikeeeyy04&theme=tokyonight)](https://git.io/streak-stats)
-
-</div>
-<!-- STATS:END -->
-
-
 ## Top Languages
 
 <!-- LANGS:START -->
@@ -31,7 +17,7 @@ Passionate about building beautiful, functional web experiences and crafting inn
 
 ## About Me
 
-| | |
+| Field | Details |
 |---|---|
 | **Currently Working On** | Full Stack Web Applications & VS Code Extensions |
 | **Learning** | Advanced React Patterns & System Design |
