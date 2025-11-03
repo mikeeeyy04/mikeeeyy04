@@ -6,11 +6,19 @@ Passionate about building beautiful, functional web experiences and crafting inn
 
 ---
 
-## Top Languages
+## Top Languages & Streak
 
 <!-- LANGS:START -->
-<!-- Top languages with private repos via token -->
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mikeeeyy04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=ffffff&langs_count=8&token=)](https://github.com/anuraghazra/github-readme-stats)
+<div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;">
+	<div>
+		<!-- Top languages image -->
+		<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mikeeeyy04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=ffffff&langs_count=8&token=" height="200" alt="Top Languages" />
+	</div>
+	<div>
+		<!-- Streak image -->
+		<img src="https://github-readme-streak-stats.herokuapp.com/?user=mikeeeyy04&theme=tokyonight&currStreakNum=ffffff&background=0d1117&border=58A6FF&currStreakLabel=58A6FF&fire=FF6B00&ring=58A6FF&dates=58A6FF&sideNums=ffffff&sideLabels=58A6FF&stroke=58A6FF&hide_border=true" height="200" alt="Github Streak" />
+	</div>
+</div>
 <!-- LANGS:END -->
 
 ---
@@ -37,21 +45,27 @@ Passionate about building beautiful, functional web experiences and crafting inn
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[![Hostinger](https://img.shields.io/badge/Hostinger-673DE6?logo=hostinger&logoColor=fff)](#)
+[![Netlify](https://img.shields.io/badge/Netlify-%23000000.svg?logo=netlify&logoColor=#00C7B7)](#)
+[![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white)](#)
 
 ### Databases & Backend
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 
 ### VS Code Extensions
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+[![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
 
 ### Design Tools
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Adobe XD](https://img.shields.io/badge/Adobe_XD-FF61F6?style=flat-square&logo=adobe-xd&logoColor=white)
-![Photoshop](https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=flat-square&logo=adobe-photoshop&logoColor=white)
+![Adobe Illustrator](https://img.shields.io/badge/Adobe_Illustrator-FF9A00?style=flat-square&logo=adobe-illustrator&logoColor=white)
+![Adobe Photoshop](https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=flat-square&logo=adobe-photoshop&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Shadcn/ui](https://img.shields.io/badge/Shadcn/ui-000000?style=flat-square&logo=react&logoColor=white)
 
 ---
 
@@ -63,21 +77,14 @@ Passionate about building beautiful, functional web experiences and crafting inn
 
 ## Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mike-lyndon-bigcas)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mike-lyndon-bigcas-9326242a6/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mikeeeyy04)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/mikeeeyy04)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@mikelyndonbigcas.dev)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@mcpemike04@gmail.com)
 
 ---
 
 <div align="center">
 
-<picture>
-	<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mikeeeyy04/mikeeeyy04/main/dist/github-snake-dark.svg" />
-	<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mikeeeyy04/mikeeeyy04/main/dist/github-snake.svg" />
-	<img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/mikeeeyy04/mikeeeyy04/main/dist/github-snake.svg" />
-</picture>
-
-**Made with care by Mike Lyndon Bigcas**
+**Made with ❤︎ by Mike Lyndon Bigcas**
 
 </div>
