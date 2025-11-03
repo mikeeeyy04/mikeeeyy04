@@ -8,18 +8,22 @@ Passionate about building beautiful, functional web experiences and crafting inn
 
 ## GitHub Statistics
 
+<!-- STATS:START -->
 <div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=mikeeeyy04&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=ffffff&include_all_commits=true&count_private=true&layout=compact&token=${{ secrets.README_STATS_TOKEN }})
+![GitHub stats](./.github/readme-stats/github-stats.svg)
 &nbsp;&nbsp;&nbsp;
 ![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=mikeeeyy04&theme=tokyonight&hide_border=true&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)
 
 </div>
+<!-- STATS:END -->
 
 
 ## Top Languages
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mikeeeyy04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=ffffff&langs_count=8&token=${{ secrets.README_STATS_TOKEN }})
+<!-- LANGS:START -->
+![Top Languages](./.github/readme-stats/top-langs.svg)
+<!-- LANGS:END -->
 
 ---
 

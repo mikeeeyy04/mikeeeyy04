@@ -8,21 +8,39 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
-      
-      - name: Update README with private repo stats
-        env:
-          GITHUB_TOKEN: ${{ secrets.README_STATS_TOKEN }}
+        with:
+          fetch-depth: 0
+
+      - name: Create output directory
         run: |
-          # This is a simple example - you can customize it further
-          echo "README stats will be updated with private repos"
-      
-      - name: Commit and push if changed
+          mkdir -p .github/readme-stats
+
+      - name: Download GitHub stats images (secure)
+        env:
+          TOKEN: ${{ secrets.README_STATS_TOKEN }}
+          USER: "mikeeeyy04"
+        run: |
+          set -e
+          BASE_URL="https://github-readme-stats.vercel.app/api"
+          STATS_URL="$BASE_URL?username=$USER&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=ffffff&include_all_commits=true&count_private=true&layout=compact&token=$TOKEN"
+          TOP_URL="$BASE_URL/top-langs/?username=$USER&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=ffffff&langs_count=8&token=$TOKEN"
+          echo "Fetching stats image..."
+          curl -sSL "$STATS_URL" -o .github/readme-stats/github-stats.svg
+          echo "Fetching top languages image..."
+          curl -sSL "$TOP_URL" -o .github/readme-stats/top-langs.svg
+
+      - name: Commit and push images if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update README stats" && git push)
+          git add .github/readme-stats/github-stats.svg .github/readme-stats/top-langs.svg README.md || true
+          if git diff --quiet --cached; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(readme): update generated stats images"
+            git push
+          fi
