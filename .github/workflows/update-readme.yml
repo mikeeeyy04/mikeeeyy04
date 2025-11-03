@@ -31,19 +31,16 @@ jobs:
           BASE_URL="https://github-readme-stats.vercel.app/api"
           STATS_URL="$BASE_URL?username=$USER&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=ffffff&include_all_commits=true&count_private=true&layout=compact&token=$TOKEN"
           TOP_URL="$BASE_URL/top-langs/?username=$USER&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=ffffff&langs_count=8&token=$TOKEN"
-          STREAK_URL="https://github-readme-streak-stats.demolab.com/?user=$USER&theme=tokyonight&hide_border=true&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"
           echo "Fetching stats image..."
           curl -sSL "$STATS_URL" -o .github/readme-stats/github-stats.svg
           echo "Fetching top languages image..."
           curl -sSL "$TOP_URL" -o .github/readme-stats/top-langs.svg
-          echo "Fetching GitHub streak image..."
-          curl -sSL "$STREAK_URL" -o .github/readme-stats/github-streak.svg
 
       - name: Commit and push images if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add .github/readme-stats/github-stats.svg .github/readme-stats/top-langs.svg .github/readme-stats/github-streak.svg README.md || true
+          git add .github/readme-stats/github-stats.svg .github/readme-stats/top-langs.svg README.md || true
           if git diff --quiet --cached; then
             echo "No changes to commit"
           else

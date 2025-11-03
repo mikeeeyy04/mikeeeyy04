@@ -14,7 +14,7 @@ Passionate about building beautiful, functional web experiences and crafting inn
 <!-- Generated stats images (updated by GitHub Action) -->
 ![GitHub stats](.github/readme-stats/github-stats.svg)
 &nbsp;&nbsp;&nbsp;
-![GitHub Streak](.github/readme-stats/github-streak.svg)
+![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=mikeeeyy04&theme=tokyonight&hide_border=true&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)
 
 </div>
 <!-- STATS:END -->
