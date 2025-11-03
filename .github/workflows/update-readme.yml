@@ -7,6 +7,7 @@ on:
  
 permissions:
   contents: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -16,34 +17,27 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create output directory
-        run: |
-          mkdir -p .github/readme-stats
-
-      - name: Download GitHub stats images (secure)
+      - name: Update README with token
         env:
-          TOKEN: ${{ secrets.README_STATS_TOKEN }}
-          USER: "mikeeeyy04"
+          README_STATS_TOKEN: ${{ secrets.README_STATS_TOKEN }}
         run: |
-          set -e
-          BASE_URL="https://github-readme-stats.vercel.app/api"
-          STATS_URL="$BASE_URL?username=$USER&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=ffffff&include_all_commits=true&count_private=true&layout=compact&token=$TOKEN"
-          TOP_URL="$BASE_URL/top-langs/?username=$USER&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=ffffff&langs_count=8&token=$TOKEN"
-          echo "Fetching stats image..."
-          curl -sSL "$STATS_URL" -o .github/readme-stats/github-stats.svg
-          echo "Fetching top languages image..."
-          curl -sSL "$TOP_URL" -o .github/readme-stats/top-langs.svg
+          # Replace token placeholder in README
+          if [ ! -z "$README_STATS_TOKEN" ]; then
+            sed -i "s|token=)|token=$README_STATS_TOKEN)|g" README.md
+            echo "Token added to README"
+          else
+            echo "Warning: README_STATS_TOKEN not set"
+          fi
 
-      - name: Commit and push images if changed
+      - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add .github/readme-stats/github-stats.svg .github/readme-stats/top-langs.svg README.md || true
-          if git diff --quiet --cached; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore(readme): update generated stats images"
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "chore(readme): update stats token"
             git push
+          else
+            echo "No changes to commit"
           fi
